@@ -1,17 +1,17 @@
 # Containers
  Containers is OS level Virtualization.
-    	Allows for multiple isolated user space instances called containers.
-    	They share a single kernel.
-    	Can be added or removed at any time.
+    	-Allows for multiple isolated user space instances called containers.
+    	-They share a single kernel.
+    	-Can be added or removed at any time.
 Containers consist of a self contained Linux file system
-    	Can be from any Linux distribution which is compatible with the host kernel.
-    	Usually contain a single application such as a server
+    	-Can be from any Linux distribution which is compatible with the host kernel.
+    	-Usually contain a single application such as a server
 Operating system level virtualization is lightweight
-	Is often used in Cloud Computing
-	It is Half the Size of VM.
+	-Is often used in Cloud Computing
+	-It is Half the Size of VM.
 Operating system level virtualization uses a set of tools
-	A virtualization subsystem
-	A cgroup hierarchy for each container
+	-A virtualization subsystem
+	-A cgroup hierarchy for each container
 The container is mounted into the File system.
 	A program inside the container is executed
 	Using chroot to restrict it to the container file system
