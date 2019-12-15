@@ -54,3 +54,4 @@ Dockers Architecture:
         * Eg:- If you have Linux Docker Image & You have installed WordPress on Linux Image, It both share the same Layer.
 			 
 Practical Session:
+
