@@ -133,4 +133,4 @@ Docker Compose:-
 				docker-compose up    ->  Execute the yml file use this command
 				docker-compose up -d   ->Run Docker Compose in Backend.
 				docker-compose -f <Service Name> -> To View the Docker-Compose Log
-![image](https://user-images.githubusercontent.com/30715707/70859899-6882ec00-1f40-11ea-8700-ba9108ec4edb.png)
+
