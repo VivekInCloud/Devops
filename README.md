@@ -31,13 +31,13 @@ Containers:
 	* Don't run two Service in Single Containers.
 	
 Dockers:
-        * Docker is a very light-weight software container and containerization platform.
-        * Docker containers provide a way to run software in isolation			
-        * Docker was originally a Linux application
-        * It uses the kernel container functionality.
-        * It requires a 64 bit installation using a kernel version 3.10 or later
-        * Docker runs on many popular Linux distributions.
-        * It is available as RPM, APT, or binary versions.
+  * Docker is a very light-weight software container and containerization platform.
+  * Docker containers provide a way to run software in isolation			
+  * Docker was originally a Linux application
+  * It uses the kernel container functionality.
+  * It requires a 64 bit installation using a kernel version 3.10 or later
+  * Docker runs on many popular Linux distributions.
+  * It is available as RPM, APT, or binary versions.
    
 Dockers Architecture:
    * Docker Server : The Server that runs the Docker Daemon & this Daemon is used to Build,Run,Distribute Containers.
