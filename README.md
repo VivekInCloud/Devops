@@ -17,7 +17,7 @@ Containers:
   * A program inside the container is executed
 	* Using chroot to restrict it to the container file system
 	* The cgroup constrains use of resources and isolates the container from the rest of the system
-  * Operating system level virtualization is where an operating system kernel can support multiple isolated user space instances
+  * OS level virtualization is where an operating system kernel can support multiple isolated user space instances
 	* Instances are called containers or jails
 	* There is little overhead as the kernel implements the containers
   * There are numerous implementations
