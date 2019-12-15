@@ -1,8 +1,8 @@
 # Containers
  Containers is OS level Virtualization.
-    	-Allows for multiple isolated user space instances called containers.
-    	-They share a single kernel.
-    	-Can be added or removed at any time.
+    	- Allows for multiple isolated user space instances called containers.
+    	- They share a single kernel.
+    	- Can be added or removed at any time.
 Containers consist of a self contained Linux file system
     	-Can be from any Linux distribution which is compatible with the host kernel.
     	-Usually contain a single application such as a server
