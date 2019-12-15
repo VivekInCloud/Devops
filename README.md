@@ -1,13 +1,12 @@
 # Containers
-        Intro:-
-			   Containers is OS level Virtualization.
-				     Allows for multiple isolated user space instances called containers.
-				     They share a single kernel.
-				     Can be added or removed at any time.
-			   Containers consist of a self contained Linux file system
-			     Can be from any Linux distribution which is compatible with the host kernel.
-				   Usually contain a single application such as a server
-			Operating system level virtualization is lightweight
+ Containers is OS level Virtualization.
+    Allows for multiple isolated user space instances called containers.
+    They share a single kernel.
+    Can be added or removed at any time.
+Containers consist of a self contained Linux file system
+    Can be from any Linux distribution which is compatible with the host kernel.
+    Usually contain a single application such as a server
+Operating system level virtualization is lightweight
 				Is often used in Cloud Computing
 				It is Half the Size of VM.
 			Operating system level virtualization uses a set of tools
@@ -158,7 +157,7 @@ Kubernetes:
 				          kubectl get nodes
 						  kubelet cluster-info
 	Installation	
-			utility:-
+	utility:-
 				minikube - It is used to setup on kubernetes on Single Node Cluster. i.e if we want to run all the components on Single Server.
 				kubeadm 
 						It is used to setup Kubernetes on multi Node Cluster.
