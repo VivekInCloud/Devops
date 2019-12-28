@@ -41,11 +41,11 @@ Dockers:
 Dockers Architecture:
    * Docker Server : The Server that runs the Docker Daemon & this Daemon is used to Build,Run,Distribute Containers.
    * Docker Client : 
-        * The Interface/Client that interact with Docker Daemon & this client can run on different Machine as well.
-        * Basically works like Client/Server Architecture.
-	* REST API Communication happens between Docket Client & Docket Server.
-        * Docker Registry :- This stores all the Docker Images. 
-	* Docker Port :- TCP 2375 (Un-encrypted) & 2376 (Encrypted).
+       * The Interface/Client that interact with Docker Daemon & this client can run on different Machine as well.
+       * Basically works like Client/Server Architecture.
+       * REST API Communication happens between Docket Client & Docket Server.
+       * Docker Registry :- This stores all the Docker Images.	
+       * Docker Port :- TCP 2375 (Un-encrypted) & 2376 (Encrypted).
    * Docker Image is nothing but template that is being used to build the Containers.
         * It is usually a separate Server.
         * Docker Images are stored in same Layer.
