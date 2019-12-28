@@ -45,6 +45,7 @@ Dockers Architecture:
         * Basically works like Client/Server Architecture.
 	* REST API Communication happens between Docket Client & Docket Server.
         * Docker Registry :- This stores all the Docker Images. 
+	* Docker Port :- TCP 2375 (Un-encrypted) & 2376 (Encrypted).
    * Docker Image is nothing but template that is being used to build the Containers.
         * It is usually a separate Server.
         * Docker Images are stored in same Layer.
