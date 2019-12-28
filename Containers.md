@@ -61,10 +61,10 @@ Practical Session:
   * docker ps -a -> It will show all the containers status either running or stopped.
 	* Each Container have Process ID 1, If that process ID exists then the Containers is alive and if not the container is not alive.
 	* The PID 1 Process runs inside the Containers and not outside & so the multiple containers can run on PID 1 simultaneously
-  * docker run ubuntu:trusty -> This will create ubuntu containers.
-  * docker run -i -t ubuntu:trusty -> This will create Ubuntu Containers and show the interactive output to the terminal/Screen.
-  * docker run -i -t -d ubuntu:trusty -> This will create and run the containers in background.
-  * docker stop <Container ID> -> Used to stop the running Containers.
+  * docker run ubuntu:trusty --> This will create ubuntu containers.
+  * docker run -i -t ubuntu:trusty --> This will create Ubuntu Containers and show the interactive output to the terminal/Screen.
+  * docker run -i -t -d ubuntu:trusty --> This will create and run the containers in background.
+  * docker stop <Container ID> --> Used to stop the running Containers.
 				(or) 
   * docker stop <Container Name>
   * docker run -i -t -d --name MyFirstContainer1 ubuntu:trusty" -> New Containers with name as MyFirstContainer1 is created.
