@@ -68,27 +68,28 @@ Practical Session:
 				(or) 
   * docker stop <Container Name>
   * docker run -i -t -d --name MyFirstContainer1 ubuntu:trusty" -> New Containers with name as MyFirstContainer1 is created.
-  * docker attach <Container Name>" -> Use this command to enter/switch to running container and only when PID 1 of this container is listening for Input.
-  * docker start <Container name>" -> To Start the Container.
+  * docker attach <Container Name> -> Use this command to enter/switch to running container and only when PID 1 of this container is listening for Input.
+  * docker start <Container name> -> To Start the Container.
 	Exit command will stop the Container since it exits from PID1 Process.
 	Question:- How do we run web application and make it run for ever?
 	PID1 should be non exiting Process.
 	Run the Container with -d flag
-  * "docker run <container name> <any Custom comamnd> -> Adding custom command to end of the docker run application will change the Process ID of Container
+  * docker run <container name> <any Custom comamnd> -> Adding custom command to end of the docker run application will change the Process ID of Container
 	from PID1 to other PID
 	Eg:- docker run ubuntu:trusty ls -al
- * "docker rm <container name> ->Remove the stopped container from docker Daemon.
- * "docker rm" -> To Remove all the stopped containers from the Daemon.
- * "docker exec -i -t <Container Name> <Command> -> This command is used to enter running container using other PID and exiting out from this container will not close/stop the container running in PID1
+ * docker rm <container name> ->Remove the stopped container from docker Daemon.
+ * docker rm -> To Remove all the stopped containers from the Daemon.
+ * docker exec -i -t <Container Name> <Command> -> This command is used to enter running container using other PID and exiting out from this container will not close/stop the container running in PID1
 Example:-
  * docker exec -i -t docker1 bash it will enter into bash shell on my docker1 container even though another
 		bash is running under PID 1 for the same container.
- * "docker logs <container name> -> To View the output of the Container. Used for debugging the containers.
- * "docket logs -f <container name> ->To View the output of container logs similar to Tail -f file name. 
-			 We can't restart the application that is running inside container. We have to either stop/start the entire container or spun up another container with new configuration.Basically we can't restart PID1. If we do, the container will be stopped.
+ * docker logs <container name> -> To View the output of the Container. Used for debugging the containers.
+ * docket logs -f <container name> ->To View the output of container logs similar to Tail -f file name. We can't restart the application that is running inside container. We have to either stop/start the entire container or spun up another container with new configuration.Basically we can't restart PID1. If we do, the container will be stopped.
+	
  * Port Mapping: Port Mapping has to be done during creation of Container & not after creation of Container.
- * "docker run -d -p 1234:80 ngix" -> This will Map the host port 1234 to Port 80 of Ngix Web Server that listen inside the containers. 
+ * docker run -d -p 1234:80 ngix" -> This will Map the host port 1234 to Port 80 of Ngix Web Server that listen inside the containers. 
 So that we can access ngix Web Server using http://localhost:1234 from outside.
+
  * "docket run -P ngix" -> It will Map the random port on the host to port that ngix container is listening inside.
  * Volume Mapping: Volume Mapping used to Map the Folder or file from the host machine to inside the container.
 
