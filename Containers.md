@@ -53,9 +53,9 @@ Dockers Architecture:
         * Eg:- If you have Linux Docker Image & You have installed WordPress on Linux Image, It both share the same Layer.
 			 
 Practical Session:
-   * apt get install Docker.io -> To install Docker on Debian.
-   * yum install docker -> To install Docker on RHEL
-   * docker run hello-world -> It will create Containers named "Hello-World". It will get the "Hello-World" Image from Docker Hub. 
+  * apt get install Docker.io -> To install Docker on Debian.
+  * yum install docker -> To install Docker on RHEL
+  * docker run hello-world -> It will create Containers named "Hello-World". It will get the "Hello-World" Image from Docker Hub. 
    * docker run docker/whalesay cowsay 	boo ==> It will create container with docker whale image sayig Boo.
    * docker ps ==> It will show the running containers.
    * docker ps -a ==> It will show all the containers status either running or stopped.
